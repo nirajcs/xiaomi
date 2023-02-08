@@ -1,0 +1,433 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #ebeae9;
+}
+/*HEADER SECTION START*/
+.header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: #ebeae9;
+    padding-top: 5px 0;
+    position: fixed;
+}
+.header-left{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+}
+.header a:hover{
+    color: #ff6900;
+}
+.header-left img{
+    height: 35px;
+    width: 35px;
+    margin: 13px 0 0 40px;
+}
+.left-list{
+    padding: 20px 10px;
+}
+.left-list a{
+    text-decoration: none;
+    margin: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+.header-right{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 0px 50px;
+}
+.right-list-text{
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.right-list-text a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: larger;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-right: 30px;
+}
+.right-list-img img{
+    margin-right: 20px;
+    height: 35px;
+    width: 35px;
+    margin-top: 10px;
+}
+/*HEADER SECTION END*/
+
+/* CONTENT SECTION START */
+section{
+    padding-top: 50px;
+}
+.note-12{
+    width: 100%;
+    background-image: url(resources/background.webp);
+    background-size: cover;
+}
+
+.details{
+    width: 50%;
+    height: 540px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+    padding-left: 370px;
+}
+.details h2 {
+    font-size: xx-large;
+    font-weight: 100;
+}
+.details p{
+    font-size: larger;  
+}
+.details button{
+    height: 40px;
+    width: 150px;
+    font-size: large;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.price{
+    font-size: xx-large;
+}
+.cutprice{
+    color: rgb(213, 220, 224);
+    font-size: larger;
+}
+.adsone{
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.ads1{
+    width: 49%;
+    height: 550px;
+    margin: 10px;
+}
+.smartphones{
+    background-image: url(resources/div\ 1.png);
+    background-size: cover;
+    justify-content: center;
+}
+.smartphones-content{
+    margin-top: 70px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 15px;
+}
+.smartphones h1{
+    font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+}
+.smartphones h2{
+    font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+}
+.smartphones a{
+    font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ff6900;
+    text-decoration: none;
+}
+.tv{
+    background-image: url(resources/div2.png);
+    background-size: cover;
+}
+.tv-content{
+    margin-top: 70px;
+    text-align: center;
+    cursor: pointer;
+    line-height: 20px;
+}
+.tv h1{
+    font-family: "Xiaomi Brand", "Camphor Pro VF", "Camphor Pro", sans-serif;
+    font-weight: 600;
+    font-size: 35px;
+    color: white;
+}
+.tv h2{
+    font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    font-weight: 100;
+    font-size: 18px;
+    color: white;
+}
+.tv a{
+    font-family: "Camphor Pro VF", "Camphor Pro", sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 10px;
+}
+.award-winning1 img{
+    height: 100%;
+    width: 100%;
+}
+.award-winning2{
+    display: flex;
+    justify-content: space-evenly;
+}
+.notepro{
+    width: 50%;
+    height: 100%;
+}
+.notepro img{
+    width: 100%;
+    height: 100%;
+}
+.power-bank{
+    width: 50%;
+    height: 100%;
+    text-align: center;
+}
+.power-bank-content{
+    margin-top: 80px;
+    line-height: 20px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.power-bank h1{
+    font-size: xx-large;
+}
+.power-bank h2{
+    font-size: large;
+    font-weight: 100;
+}
+.power-bank a{
+    font-size: large;
+    font-weight: 100;
+    color: #ff6900;
+    text-decoration: none;
+}
+.power-bank img{
+    height: 300px;
+    width: 300px;
+}
+.video-section{
+    background-color: white;
+    margin: 50px 100px;
+    display: flex;
+}
+.video-ad{
+    width: 100%;
+}
+.video-content{
+    width: 50%;
+    height: 500px;
+    margin: 80px;
+}
+.video{
+    background-image: url(resources/thumbnail.png);
+    background-size: cover;
+    text-align: center;
+}
+.video img{
+    height: 80px;
+    width: 80px;
+    margin-top: 200px;
+}
+.description{
+    text-align: center;
+    font-family:'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.description-content{
+    margin: 100px 0px;
+}
+.description h1{
+    font-size: 50px;    
+}
+.description h2{
+    font-size: x-large;
+    color: #ff6900;
+}
+.description p,a{
+    font-size: large;
+    text-decoration: none;
+    letter-spacing: 1px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgb(41, 41, 41);
+}
+.blocks{
+    width: 100%;
+    height: 500px;
+    border: 1px solid rgb(197, 191, 191);
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.blocks h1{
+    font-size: xx-large;
+}
+.warranty{
+    display: flex;
+    justify-content: space-around;
+}
+.protection{
+    margin: 80px 15px;
+}
+.protection a{
+    font-weight: 5px;
+    letter-spacing: 1px;
+}
+.protection img{
+    height: 50px;
+    width: 50px;
+}
+.service-center{
+    margin: 20px;
+    width: 100%;
+    height: 50%;
+}
+.mi-exchange{
+    margin: 20px;
+    width: 100%;
+    height: 50%;
+}
+.customer-care{
+    display: flex;
+    flex-direction: column;
+}
+/* CONTENT SECTION END */
+
+/* FOOTER SECTION START  */
+footer{
+    background-color: rgb(20, 19, 19);
+    color: white;
+}
+.footer-section{
+    margin: 0px 80px;
+}
+.footer-content{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    font-family: 'Camphor Pro VF', 'Camphor Pro', sans-serif;
+}
+.set-one{
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.list-head{
+    font-size: x-large;
+    font-weight: 700;
+    line-height: 80px;
+}
+.set-one li{
+    font-size: medium;
+    font-weight: 100;
+    line-height: 30px;
+    cursor: pointer;
+}
+.set-one li:hover{
+    text-decoration: underline;
+}
+.set-two{
+    width: 25%;
+}
+.social img{
+    height: 30px;
+    width: 30px;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+.mail-register{
+    display: flex;
+    width: 100%;
+}
+.follow input{
+    margin:20px 0px;
+    height: 50px;
+    width: 70%;
+    background-color: transparent;
+    color:#e7d7c7;
+    padding: 0px 20px;
+    border: 1px solid white;
+    border-right: 0px;
+    border-radius: 10px 0 0 10px;
+}
+.mail-register button{
+    height: 53px;
+    padding-left: 50px;
+    color: white;
+    font-size: xx-large;
+    font-weight: 100;
+    background-color: transparent;
+    border: 1px solid white;
+    border-left: 0px;
+    border-radius:0 10px 10px 0;
+    width: 30%;
+    margin: 20px 30px 0 0;
+}
+.qr{
+    display: flex;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 20px 20px 0 0;
+}
+.qr-div{
+    margin-right:20px;
+}
+.qr-div img{
+    width: 100px;
+    height: 100px;
+}
+.qr-content{
+    margin-left: 25px;
+    font-size: smaller;
+}
+.playstore{
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid;
+    margin-right: 20px;
+    padding-right: 50px;
+    border-radius: 0 0 20px 20px ;
+    
+}
+.playstore-logo img{
+    height: 50px;
+    width: 50px;
+}
+.copyright-content{
+    display: flex;
+    justify-content: space-between;
+}
+.policy{
+    display: flex;
+    justify-content: space-between;
+}
+.policy a,.region a{
+    margin: 16px 0 0 50px;
+    color: white;
+    font-size: medium;
+}
+.region{
+    display: flex;
+    justify-content: space-between;
+}
+.region img{
+    margin: 15px;
+    height: 25px;
+    width: 25px;
+}
+/* FOOTER SECTION END  */
